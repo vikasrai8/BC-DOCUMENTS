@@ -1,0 +1,1 @@
+set-navserverconfiguration-serverinstance bc240 -keyname developerservicesenabled-keyvalue true

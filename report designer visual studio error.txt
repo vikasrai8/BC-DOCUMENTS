@@ -1,0 +1,7 @@
+---------------------------
+Microsoft Dynamics NAV Development Environment
+---------------------------
+An error occurred when opening the report designer. A supported version of Visual Studio could not be found.
+---------------------------
+OK   
+---------------------------

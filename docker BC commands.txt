@@ -1,0 +1,21 @@
+$artifactUrl = Get-BcArtifactUrl -type sandbox -country us -select latest
+New-BCContainer -
+
+
+
+
+
+
+
+
+
+
+
+
+accept_eula -containerName sandboxus -imagename mcr.microsoft.com/businesscentral:ltsc2019 -artifactUrl $artifactUrl
+
+
+
+
+$artURL = Download-Artifacts -artifactUrl (Get-BcArtifactUrl -type sandbox -country us -select latest) -includePlatform -basepath "E:\"
+New-BCContainer -accept_eula -containerName BCSandbox -artifactUrl $artURL
